@@ -1,21 +1,2 @@
 before_build:
-  - dotnet restore
-  
-environment:
-  API_KEY_SECRET:
-    secure: 8pGgyTemie+I2nZ9rtx6GGr8p7qWTMOZplaLLxUZcK9IwMwiNrbQ/2d5wB00rnC9
-
-    
-after_build:
-
-- ps: >-
-
-    if($env:APPVEYOR_REPO_BRANCH -eq 'master')
-
-        {
-
-            dotnet pack .\Nancy.AspNetCore.Http --configuration Release
-
-            dotnet nuget push .\Nancy.AspNetCore.Http\bin\Release\*.nupkg -k %API_KEY_SECRET% -s https://www.nuget.org/api/v2/package
-
-        }
+  - dotnet restore  
