@@ -3,7 +3,7 @@ before_build:
   
 environment:
   API_KEY_SECRET:
-    secure: +8vlON0DW+QMXdxmBh4BT3DKTEJFs2GexTOH3tAALnaI/I02SQrq5nHgi2sj+sAB
+    secure: rcxwFPUE7zdCPnmT+Hj+uY/RQ8Szq6p5T5jxM8ser5eP9JTt/bZXRku/hDRbYfJu
     
 after_build:
 
