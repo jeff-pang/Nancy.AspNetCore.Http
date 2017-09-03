@@ -1,22 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <PackageIconUrl>https://raw.githubusercontent.com/jeff-pang/Nancy.AspNetCore.Http/master/Assets/icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/jeff-pang/Nancy.AspNetCore.Http</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/jeff-pang/Nancy.AspNetCore.Http</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/jeff-pang/Nancy.AspNetCore.Http</RepositoryUrl>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Version>2.0.0</Version>
     <PackageReleaseNotes></PackageReleaseNotes>
     <Description>Http Extension for Nancy to access AspNetCore's HttpContext</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Jeff Pang</Authors>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.1.2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
     <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
     <PackageReference Include="System.Reflection.TypeExtensions" Version="4.3.0" />
   </ItemGroup>
