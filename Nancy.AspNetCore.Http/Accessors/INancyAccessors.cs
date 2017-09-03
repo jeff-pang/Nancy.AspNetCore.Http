@@ -1,8 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Nancy.Bootstrapper;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Nancy.Bootstrapper;
 
 namespace Nancy.AspNetCore.Http.Accessors
 {
