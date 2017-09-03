@@ -2,13 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <PackageIconUrl>https://github.com/jeff-pang/Nancy.AspNetCore.Http/blob/master/Assets/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/jeff-pang/Nancy.AspNetCore.Http/master/Assets/icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/jeff-pang/Nancy.AspNetCore.Http</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/jeff-pang/Nancy.AspNetCore.Http</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/jeff-pang/Nancy.AspNetCore.Http</RepositoryUrl>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Description>Http Extension for Nancy to access AspNetCore's HttpContext</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
